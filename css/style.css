@@ -59,12 +59,16 @@ body{
 	line-height: 3.25;
 	letter-spacing: 0.5px;
 	min-height: 52px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	color:#fff;
+	transition: all ease 1s;
 }
 .button_white {
-	background-color:#fff;
+	background:#fff;
 	color: #FF4242;
 	border: 2px solid #FF4242;
 }
+
 .learn__wrapper{
 	display: flex;
 	flex-wrap: wrap;
@@ -163,4 +167,109 @@ body{
 	height: 1px;
 	background-color:#787A80;
 	vertical-align: middle;
+}
+/*---------------events-----------------*/
+.our-events{
+	padding: 80px 0;
+	background: linear-gradient(55.95deg, #fedcd2 0%, #fedecf 100%);
+}
+.our-events *:last-child{
+	margin-bottom: 0;
+}
+.our-events__label {
+	margin-bottom: 8px;
+}
+.our-events__title {
+	margin-bottom: 60px;
+}
+.label_text-align{
+	text-align: center;
+}
+.title_text-align{
+	text-align: center;
+}
+
+.event-list {
+	background-color:#fff;
+	display: flex;
+	padding:32px 20px 32px 40px;
+	margin: 0 -20px;
+	flex-wrap: wrap;
+	row-gap: 30px;
+}
+.event-list__date {
+	padding: 0 20px;
+}
+
+.date-event-list {}
+
+.date-event-list__body {
+	display: flex;
+	column-gap:20px;
+	flex-wrap:wrap;
+}
+.date-event-list__day {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 130%;
+	letter-spacing: 1px;
+	color: #FF3F3A;
+}
+.date-event-list__info {
+	
+}
+.date-event-list__mounth {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.date-event-list__time {
+	line-height: 160%;
+	color: #787A80;
+}
+
+.info-event-list {
+	flex: 1 1 auto;
+	padding: 0 20px;
+}
+.info-event-list__body {}
+.info-event-list__text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.info-event-list__description {
+	line-height: 160%;
+	color: #787A80;
+}
+.item-event-list__button {
+	padding: 0 32px;
+}
+.button_white:hover {
+	color:#fff;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
+.our-events__wrapper{
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	margin-bottom: 60px;
+}
+.event-list_shadow{
+	box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.16),
+	0px 30px 24px -10px rgba(255, 63, 58, 0.1),
+	0px 12px 10px -6px rgba(255, 63, 58, 0.08),
+	0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+}
+.view-all__body  {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.5;
+}
+
+.view-all{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
 }
