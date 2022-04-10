@@ -273,3 +273,6 @@ body{
 	gap: 40px;
 	flex-wrap: wrap;
 }
+.item-event-list{
+	padding-left: 20px;
+}
